@@ -50,14 +50,22 @@ body {
   font-weight: 600;
 }
 
+#nav-btn:hover {
+  background-color: #27a855;
+  color: black;
+}
+
 .banner-container {
-  background-image: url("../assets/hero-bg.png");
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../assets/hero-bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
   min-height: 100vh;
   max-width: 100%;
 }
+
 
 .banner-items {
   display: flex;
@@ -93,6 +101,7 @@ body {
   font-size: 72px;
   font-weight: 700;
   margin-bottom: 16px;
+  color: #ffffff;
 }
 
 span {
@@ -120,6 +129,16 @@ span {
   margin-right: 8px;
 }
 
+.banner-start-btn:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.banner-start-btn i{
+  margin-top: 1px;
+}
+
 .banner-see-btn {
   width: 251px;
   height: 52px;
@@ -133,6 +152,18 @@ span {
   cursor: pointer;
   margin-left: 8px;
 }
+
+.banner-see-btn:hover {
+  background-color: #30b868;
+  color: white;
+  border: none;
+}
+
+.banner-see-btn i{
+  margin-top: 2px;
+}
+
+
 
 .notes-title {
   font-size: 48px;
@@ -221,12 +252,19 @@ h6 {
 .second-brain-text-description {
   width: 500px;
   margin-bottom: 40px;
+  color: #627382;
 }
 
 .second-brain-text ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.solution-list {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .early-access-details {
@@ -262,6 +300,11 @@ h6 {
   color: white;
   cursor: pointer;
   margin-bottom: 16px;
+}
+
+.early-access-details button:hover {
+  background-color: #27a855;
+  color: black;
 }
 
 footer {
