@@ -113,6 +113,7 @@ span {
   font-weight: 400;
   margin-bottom: 32px;
   color: white;
+  line-height: 1.8;
 }
 
 .banner-start-btn {
@@ -259,6 +260,8 @@ h6 {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .solution-list {
