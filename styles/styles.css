@@ -306,8 +306,9 @@ h6 {
 }
 
 .early-access-details button:hover {
-  background-color: #27a855;
-  color: black;
+  background-color: #167236;
+   transform: scale(1.1) ;
+   transition: transform 0.5s ease-in-out;
 }
 
 footer {
